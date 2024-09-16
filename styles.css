@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.color-code {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.color-box {
+    width: 200px;
+    height: 300px;
+    margin: 0;
+    border: none;
+}
+
+#green-box {
+    background-color: #009900;
+}
+
+#white-box {
+    background-color: #FFFFFF;
+    background-image: url('Bandera.png'); /* Ruta de la imagen */
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#red-box {
+    background-color: #D32F2F;
+    margin-left: -30px; /* Mueve el cuadro rojo hacia la izquierda */
+}
